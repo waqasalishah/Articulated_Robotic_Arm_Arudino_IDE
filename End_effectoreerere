@@ -1,0 +1,12 @@
+# Define the pin for end effector
+endpin = 8
+
+# Function to transform the angle to duty cycle
+def servo_angle(angle): 
+    duty_cycle = int(2.5 + (10 / 180) * angle)
+    return duty_cycle
+
+# Set the pin mode
+GPIO.setmode(GPIO.BOARD)
+GPIO.setwarnings(False)
+GPIO.setup(endpin, GPIO.OUT)
