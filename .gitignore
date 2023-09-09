@@ -1,0 +1,6 @@
+#This line is a comment line
+# Following line ignore all file ending with .c extention
+*.c
+
+# but do track f1.c, even though you're ignoring .c files above
+!f1.c

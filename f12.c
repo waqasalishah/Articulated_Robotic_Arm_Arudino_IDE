@@ -2,8 +2,6 @@
 This branch includes the codes written for Articulated robotic arm in Arduino IDE. The code includes following:-
 Testing for the Wifi Module
 LED control using WiFi
-In middle
-# Comment in middle
 LED software fadding
 MPU_9250 data communcation and extraction
 MPU_9250 data manipulation
@@ -13,10 +11,3 @@ MPU_9250 data display on the web page
 
 okay
 okay 2
-
-New add line
-
-
-This is new line added. Waqas
-
-2nd line
